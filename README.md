@@ -26,7 +26,7 @@ R → Right
 S → Stop
 The car only moves when no alcohol is detected.
 
-Hardware Used
+Hardware Used:-
 Component	
 ESP32:-	Main microcontroller
 MQ-3:- Alcohol Sensor	Detects alcohol level
@@ -36,7 +36,7 @@ L298N Motor Driver (or similar)	:-Controls car motors
 Bluetooth (Built-in ESP32)	:-Controls the car manually
 DC Motors (4):-	Vehicle movement
 
-Pin Connections (Summary)
+Pin Connections (Summary):-
 Alcohol Sensor
 MQ-3 → ESP32 GPIO34 (ADC)
 Motor Driver Pins
@@ -51,7 +51,7 @@ GPS (UART2)
 ESP32 TX → GPS RX (GPIO13)
 ESP32 RX → GPS TX (GPIO14)
 
-Libraries Used
+Libraries Used:-
 Install these libraries from Arduino IDE Library Manager:
 TinyGPS++
 BluetoothSerial (built-in)
